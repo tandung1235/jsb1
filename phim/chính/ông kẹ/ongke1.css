@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+/* header */
+.icon1{
+    font-size: larger;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+.icon1:hover{
+    /* background-color: #85b3d6; */
+    color: #85b3d6;;
+}
+.bieutuong{
+    margin-top: 10px;
+    color: whitesmoke;
+}
+.bieutuong:hover{
+    color: #85b3d6;
+}
+.header{
+   background-color:#252428;
+    width: 1518px;
+    height: 30%;
+}
+.dau-header{ 
+    margin: 0 15% 0 15%;
+    height: 50px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.cuoi-header{
+    margin: 0 15% 0 15%;
+    height: 30%;
+    width: max-content;
+    display: flex;
+    color: #201d1d;
+}
+#search{
+    background-color: #201d1d;
+}
+input::placeholder{
+    color: whitesmoke;
+}
+
+
+/* nội dung phim */
+
+.content{
+    padding-top: 3%;
+    width: 1518px;
+    height: 1000px;
+    background-color:#404040;
+}
+.tieude{
+    background-color:#121212;
+    height: 30px;
+    margin: 0 15% 0 15%;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.content-1{
+    margin-left: 15%;
+    width: 75%;
+    height: 100%;
+    /* background-color: whitesmoke; */
+    display: flex;
+}
+.content-1 .duoi-top{
+    width: 75%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.content-1 .duoi-top .gioithieu{
+    width: 100%;
+    height: 440px;
+    padding-top: 10px;
+    
+    /* background-color: chocolate; */
+    display: flex;
+}
+.card{
+    width: 260px;
+    height: 380px;
+    border-radius: 5px 5px 0 0;
+}
+.gioithieua{
+    width: 260px;
+    height: 430px;
+    border-radius: 5px;
+    background-color: black;
+}
+.nutxemphim{
+    width: 260px;
+    height: 50px;
+    background-color:#2e2e2e;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.nutxemphim1{
+    width: 116px;
+    height: 32px;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.gioithieub{
+    margin-left: 10px;
+    width: 490px;
+    height: max-content;
+    padding-left: 5px;
+    background-color: #222222;
+    border-radius: 5px;
+}
+.noidunggioithiru{
+    color: #9CA3AF;
+}
+.gioithieub li{
+    margin-top: 8px;
+}
+
+
+.content-1 .duoi-top .noidung{
+    width: 770px;
+    height: max-content;
+    /* background-color: forestgreen; */
+    background-color:#2e2e2e;
+    border-radius: 5px;
+    padding-left: 5px;
+    /* padding-right: 5px; */
+}
+
+.content-1 .dexuat{
+    width: 25%;
+    height: 100%;
+    /* background-color: fuchsia; */
+}
+
+/* footer */
+.footer{
+     width: 100%;
+     height: 100px;
+     display: flex;
+}
+.footer-1{
+    background-color: #252428  ;
+    width: 100%;
+    height: max-content;
+} 
+.dexuat{
+    height: 1050px;
+    /* margin: 0 15% 0 75%; */
+    width: 20%;
+    /* background-color: rgb(255, 221, 180); */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.card-dexuat{
+    width: 70px;
+    height: 89px;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+.phim-dexuat{
+    font-size: 90%;
+  
+   padding-left: 5px;
+   width: 230px;
+   height: 89px;
+   display: flex;
+   align-items: center;
+   background-color: #0C0C0C;
+   border-radius: 6px;
+   color: whitesmoke;
+}
+.phim1{
+    display: flex;
+    width: 92%;
+    height: 110px;
+    background-color:#0C0C0C;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.phim2{
+    display: flex;
+    width: 92%;
+    height: 110px;
+    background-color:#1c1c1c;
+    align-items: center;
+    margin-left: 15px;
+}
+.dexuat a:hover{
+    color: #DA996E;
+}

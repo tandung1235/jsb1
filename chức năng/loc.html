@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lọc dữ liệu bằng 2 option</title>
+</head>
+<body>
+  <a href="" id="ap1"><p style="display: none;" id="a1">2013</p><p style="display: none;" class="a2">Mỹ</p>ehh</a>
+  <a href=""><p style="display: none;" class="a1">2016</p><p style="display: none;" class="a2">Nhật</p>ety</a>
+  <select class="select1">
+    <option value="">Mỹ</option>
+    <option value="">Nhật</option>
+  </select>
+  <select id="select2">
+    <option value="">2013</option>
+    <option value="">2016</option>
+  </select>
+  <button id="btn">tk</button>
+  <script>
+    var button1 = document.getElementById("btn");
+    var nam = document.getElementById("a1").textContent;
+    button1.addEventListener("click", function(){
+      var year = document.getElementById("select2");
+      // for (var i=0 ; 0<i<=nam.length;i++){
+      //   if (year === nam){
+      //     alert("sgsgfdg")
+      //   }
+      // }
+      alert(year.va)
+    })
+  </script>
+</body>
+</html>
